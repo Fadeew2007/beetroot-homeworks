@@ -5,47 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Резюме</title>
+    <!-- * Style -->
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <!-- Custom -->
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <a href="../index.html">Main Page</a>
-    <!-- * CV Block -->
-    <div>
-      <!-- ! Content -->
-      <h1>Тарас Фадеєв</h1>
-      <a href="./eng.html">Go to English</a><br />
-      <img src="./assets/img/photo.jpg" alt="main-photo" />
-      <p>03.07.1993<br />Місце народження: Планета земля</p>
-      <hr />
-      <!-- ! Робота -->
-      <h2>Досвід роботи</h2>
-      <a href="https://beetroot.academy">BeetRoot Academy</a>
-      з 05.08.2022 по нині
-      <!-- ? Можливо тут треба все розмежувати? -->
-      <ul>
-        До спектру моїх обов'язків входить:
-        <li>Виконання домашніх завдань</li>
-        <li>Відвідування занять</li>
-        <li>Бути активним</li>
-      </ul>
-      <a href="https://alin.ua">Alin - rent a car</a>
-      з 03.02.2020 по 01.08.2022
-      <!-- ? Можливо тут треба все розмежувати? -->
-      <ol>
-        До спектру моїх обов'язків входить:
-        <li>Приймання замовлень</li>
-        <li>Спілкування з клієнтами</li>
-        <li>Ведення обліку</li>
-        <li>Відповідальність</li>
-        <li>Уважність</li>
-      </ol>
-      <!-- * Освіта -->
-      <h2>Освіта</h2>
-      <a href="https://www.uad.edu.ua">Українська Академія Друкарства</a>
-      <p>з 2013 по 2016</p>
-      <p>
-        Ступінь -
-        <b>Бакалавр</b>
-      </p>
+    <!-- Main block -->
+    <div class="main">
+      <!-- * About me -->
+      <div class="about-me">
+        <!-- IMG -->
+        <figure>
+          <img
+            class="about-me-photo"
+            src="./assets/img/photo.jpg"
+            alt="photo"
+          />
+        </figure>
+        <!-- Contact block -->
+        <div class="about-me-contact">
+          <h3>Контакти</h3>
+          <div class="about-me-contact-solial">
+            <p>
+              <b> Телефон </b>
+              <a href="tel:+380632649373">+38 063 264 93 73</a>
+            </p>
+            <p>
+              <b>E-mail</b>
+              <a href="mailto:tarifa93@gmail.com">tarifa93@gmail.com</a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com/tarasfadeyev/">Instagram</a>
+            </p>
+            <p>
+              <a href="https://www.facebook.com/taras.fadeyev">Facebook</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="my-skills"></div>
     </div>
   </body>
 </html>
