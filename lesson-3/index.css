@@ -8,6 +8,8 @@
   margin-top: 50px;
 }
 
+/* HEADER */
+
 .header {
   margin-bottom: 30px;
   text-align: center;
@@ -17,6 +19,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* LINKS */
 
 .header-link {
   text-decoration: none;
@@ -41,6 +45,8 @@
   font-weight: 300;
 }
 
+/* PHOTO */
+
 .header-main-photo {
   border-radius: 20%;
 }
@@ -60,6 +66,8 @@
   border-left: 2px solid #999;
   margin: 0 10px;
 }
+
+/* JOBS */
 
 .about-job {
   font-weight: bold;
