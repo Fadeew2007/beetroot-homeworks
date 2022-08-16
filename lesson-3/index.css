@@ -1,17 +1,100 @@
-.about-me {
-  width: 30%;
+.main {
+  max-width: 700px;
+  background-color: var(--main-bg-color);
+  margin: 0px auto 0px;
+  box-shadow: 1px 1px 4px #dad7d7;
+  border-radius: 3px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.header {
+  margin-bottom: 30px;
   text-align: center;
-	padding-top: 20px;
 }
 
-.about-me-photo {
-  border-radius: 50%;
-  padding-bottom: 20px;
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.about-me-contact h3 {
-	padding-bottom: 15px;
+.header-link {
+  text-decoration: none;
+  color: var(--main-teg-color);
 }
-.about-me-contact-solial a {
-	text-decoration: none;
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.header-full-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.header-first-name {
+  font-weight: 700;
+}
+
+.header-last-name {
+  font-weight: 300;
+}
+
+.header-main-photo {
+  border-radius: 20%;
+}
+
+.header-contact {
+  margin-bottom: 20px;
+}
+.header-contact-email,
+.header-contact-phone {
+  color: var(--main-teg-color);
+  font-weight: 300;
+}
+
+.header-contact-separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0 10px;
+}
+
+.about-job {
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.details {
+  line-height: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.details-content {
+  margin-bottom: 40px;
+}
+
+.content-title {
+  color: var(--main-teg-color);
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.content-list-item {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-list-right-side {
+  text-align: right;
+}
+
+.content-list-left-side-name {
+  font-weight: bold;
 }

@@ -19,7 +19,9 @@ a {
 }
 
 body {
-	font-size: 16px;
-	font-family: 'Cormorant Garamond';
-	background-color: #dddddd;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	background-color: var(--main-bgb-color);
+	font-weight: 400;
+	color: var(--main-txt-color);
 } 

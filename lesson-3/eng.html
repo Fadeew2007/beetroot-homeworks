@@ -5,52 +5,168 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <!-- * Style -->
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <!-- Custom -->
+    <link rel="stylesheet" href="./variables.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <a href="../index.html">Main Page</a>
-    <!-- * CV Block -->
-    <div>
-      <!-- ! Content -->
-      <h1>Taras Fadeiev</h1>
-      <a href="./index.html">Go to Ukrainian</a><br />
-      <figure>
-        <img src="./assets/img/photo.jpg" alt="main-photo" />
-      </figure>
-      <p>
-        03.07.1993 <br />
-        Place of birth: Earth
-      </p>
-      <hr />
-      <!-- ! Робота -->
-      <h2>Working Experience</h2>
-      <a href="https://beetroot.academy">BeetRoot Academy</a>
-      from 05.08.2022 till today
-      <!-- ? Можливо тут треба все розмежувати? -->
-      <ul>
-        My responsibilities include:
-        <li>Doing homework</li>
-        <li>Attending classes0</li>
-        <li>Be active</li>
-      </ul>
-      <a href="https://alin.ua">Alin - rent a car</a>
-      from 03.02.2020 to 01.08.2022
-      <!-- ? Можливо тут треба все розмежувати? -->
-      <ol>
-        My responsibilities include:
-        <li>Taking orders</li>
-        <li>Communication with clients</li>
-        <li>Accounting</li>
-        <li>Responsibility</li>
-        <li>Attentiveness</li>
-      </ol>
-      <!-- * Освіта -->
-      <h2>Education</h2>
-      <a href="https://www.uad.edu.ua">Ukrainian Academy of Printing</a>
-      <p>from 2013 to 2016</p>
-      <p>
-        Degree -
-        <b>Bachelor</b>
-      </p>
+    <!-- Main block -->
+    <div class="main">
+      <!-- * HEADER -->
+      <div class="header">
+        <div class="nav">
+          <div class="header-lang">
+            <a href="./index.html" class="header-link">УКР</a>
+          </div>
+          <div class="header-main">
+            <a href="../index.html" class="header-link">Main page</a>
+          </div>
+        </div>
+        <div class="header-full-name">
+          <span class="header-first-name">Taras</span>
+          <span class="header-last-name">Fadeiev</span>
+        </div>
+        <div class="header-photo">
+          <img
+            src="./assets/img/photo.jpg"
+            alt="photo"
+            class="header-main-photo"
+          />
+        </div>
+        <div class="header-contact">
+          <span class="header-contact-email">Email: </span>
+          <span>tarifa93@gmail.com</span>
+          <span class="header-contact-separator"></span>
+          <span class="header-contact-phone">Phone: </span>
+          <span>+380 63 264 93 73</span>
+        </div>
+        <div class="about">
+          <span class="about-job"> Front-End Developer </span>
+          <span class="about-description"
+            >I'm future Front-End developer who want to learn HTML, CSS and JS.
+            I hope to finish academy and find a perfect and progressive company
+            to improve my skills in a best team
+          </span>
+        </div>
+      </div>
+      <!-- * DETAILS -->
+      <div class="details">
+        <div class="details-content">
+          <div class="content-title">Experience</div>
+          <div class="content-list">
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">Alin - rent a car</div>
+                <div class="content-list-left-side-address">Lviv, Ukraine</div>
+                <div class="content-list-left-side-tiem">02.2020 - today</div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">Manager</div>
+                <div class="content-list-right-side-description">
+                  Operational work
+                </div>
+              </div>
+            </div>
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">
+                  Lviv Handmade Chocolate
+                </div>
+                <div class="content-list-left-side-address">Lviv, Ukraine</div>
+                <div class="content-list-left-side-tiem">08.2014 - 08.2019</div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">Internet-shop</div>
+                <div class="content-list-right-side-description">Head</div>
+              </div>
+            </div>
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">
+                  Brett/Robinson Vacation Rentals
+                </div>
+                <div class="content-list-left-side-address">Alabama, USA</div>
+                <div class="content-list-left-side-tiem">05.2014 - 08.2014</div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">QA</div>
+                <div class="content-list-right-side-description">
+                  Room checker
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details-content">
+          <div class="content-title">Education</div>
+          <div class="content-list">
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">Beetroot Academy</div>
+                <div class="content-list-left-side-address">Online</div>
+                <div class="content-list-left-side-tiem">08.2022 - today</div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">
+                  Front-End developer
+                </div>
+                <div class="content-list-right-side-description">Developer</div>
+              </div>
+            </div>
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">
+                  Ukrainian Academy of Printing
+                </div>
+                <div class="content-list-left-side-address">Lviv, Ukraine</div>
+                <div class="content-list-left-side-tiem">09.2012 - 07.2016</div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">Comp. engineering</div>
+                <div class="content-list-right-side-description">
+                  Computer maintenance
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details-content">
+          <div class="content-title">Languages</div>
+          <div class="skills">
+            <div class="skills-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">Ukrainian</div>
+              </div>
+              <div class="content-list-right-side">
+                <span>Native</span>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">English</div>
+              </div>
+              <div class="content-list-right-side">
+                <span>Intermediate</span>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">Polish</div>
+              </div>
+              <div class="content-list-right-side">
+                <span>Pre-intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

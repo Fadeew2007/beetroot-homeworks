@@ -12,44 +12,167 @@
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
     <!-- Custom -->
+    <link rel="stylesheet" href="./variables.css" />
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <!-- Main block -->
     <div class="main">
-      <!-- * About me -->
-      <div class="about-me">
-        <!-- IMG -->
-        <figure>
+      <!-- * HEADER -->
+      <div class="header">
+        <div class="nav">
+          <div class="header-lang">
+            <a href="./eng.html" class="header-link">ENG</a>
+          </div>
+          <div class="header-main">
+            <a href="./index.html" class="header-link">На головну</a>
+          </div>
+        </div>
+        <div class="header-full-name">
+          <span class="header-first-name">Тарас</span>
+          <span class="header-last-name">Фадеєв</span>
+        </div>
+        <div class="header-photo">
           <img
-            class="about-me-photo"
             src="./assets/img/photo.jpg"
             alt="photo"
+            class="header-main-photo"
           />
-        </figure>
-        <!-- Contact block -->
-        <div class="about-me-contact">
-          <h3>Контакти</h3>
-          <div class="about-me-contact-solial">
-            <p>
-              <b> Телефон </b>
-              <a href="tel:+380632649373">+38 063 264 93 73</a>
-            </p>
-            <p>
-              <b>E-mail</b>
-              <a href="mailto:tarifa93@gmail.com">tarifa93@gmail.com</a>
-            </p>
-            <p>
-              <a href="https://www.instagram.com/tarasfadeyev/">Instagram</a>
-            </p>
-            <p>
-              <a href="https://www.facebook.com/taras.fadeyev">Facebook</a>
-            </p>
+        </div>
+        <div class="header-contact">
+          <span class="header-contact-email">Email: </span>
+          <span>tarifa93@gmail.com</span>
+          <span class="header-contact-separator"></span>
+          <span class="header-contact-phone">Телефон: </span>
+          <span>+380 63 264 93 73</span>
+        </div>
+        <div class="about">
+          <span class="about-job"> Front-End розробник </span>
+          <span class="about-description"
+            >Я майбутній Front-End розробник з майбутнім знанням HTML, CSS та
+            JS. Я мотивований, орієнтований на результат і шукаю успішну
+            компанію з можливістю розвитку.
+          </span>
+        </div>
+      </div>
+      <!-- * DETAILS -->
+      <div class="details">
+        <div class="details-content">
+          <div class="content-title">Досвід</div>
+          <div class="content-list">
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">
+                  Alin - прокат авто
+                </div>
+                <div class="content-list-left-side-address">Львів, Україна</div>
+                <div class="content-list-left-side-tiem">
+                  02.2020 - сьогодні
+                </div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">Директор</div>
+                <div class="content-list-right-side-description">
+                  Операційна робота
+                </div>
+              </div>
+            </div>
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">
+                  Львівська майстерня шоколаду
+                </div>
+                <div class="content-list-left-side-address">Львів, Україна</div>
+                <div class="content-list-left-side-tiem">08.2014 - 08.2019</div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">Інтернет-крамниця</div>
+                <div class="content-list-right-side-description">Керівник</div>
+              </div>
+            </div>
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">
+                  Brett/Robinson Vacation Rentals
+                </div>
+                <div class="content-list-left-side-address">Алабама, США</div>
+                <div class="content-list-left-side-tiem">05.2014 - 08.2014</div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">QA</div>
+                <div class="content-list-right-side-description">
+                  Перевірка чистоти
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details-content">
+          <div class="content-title">Освіта</div>
+          <div class="content-list">
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">Beetroot Academy</div>
+                <div class="content-list-left-side-address">Online</div>
+                <div class="content-list-left-side-tiem">
+                  08.2022 - сьогодні
+                </div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">
+                  Front-End розробник
+                </div>
+                <div class="content-list-right-side-description">Developer</div>
+              </div>
+            </div>
+            <div class="content-list-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">
+                  Українська Академія Друкарства
+                </div>
+                <div class="content-list-left-side-address">Львів, Україна</div>
+                <div class="content-list-left-side-tiem">09.2012 - 07.2016</div>
+              </div>
+              <div class="content-list-right-side">
+                <div class="content-list-left-side-name">Комп. інженарія</div>
+                <div class="content-list-right-side-description">
+                  Обслуговування ОМ
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="details-content">
+          <div class="content-title">Знання мов</div>
+          <div class="skills">
+            <div class="skills-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">Українська</div>
+              </div>
+              <div class="content-list-right-side">
+                <span>Рідна</span>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">Англійська</div>
+              </div>
+              <div class="content-list-right-side">
+                <span>Середній</span>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="content-list-left-side">
+                <div class="content-list-left-side-name">Польська</div>
+              </div>
+              <div class="content-list-right-side">
+                <span>Початковий</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="my-skills"></div>
     </div>
   </body>
 </html>
