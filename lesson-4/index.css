@@ -1,0 +1,166 @@
+/* ! p-panel */
+.p-panel {
+  background-color: var(--p-c-root-beer);
+  padding: 5px 0 5px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.p-panel-nav {
+  color: var(--p-c-crayola);
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* ! header */
+
+.header {
+  padding-bottom: 40px;
+}
+
+.header-wrapper {
+  padding: 20px 0 20px 0;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--c-bgc);
+}
+
+/* ! logo */
+.logo {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+/* ! navigation */
+.navigation {
+  align-items: center;
+  display: flex;
+}
+
+.navigation-wrapper {
+  margin-right: 15px;
+}
+
+.navigation-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation-item {
+  margin: 0 10px 0 10px;
+}
+
+.navigation-link {
+  color: var(--c-primary);
+  text-decoration: none;
+}
+
+.navigation-link:hover {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--c-white);
+}
+
+/* ! content */
+
+.content {
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.teg {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.text {
+  justify-content: center;
+  padding-bottom: 50px;
+  text-align: justify;
+  display: flex;
+  width: 100%;
+}
+
+.text-wrapper {
+  width: 1000px;
+}
+
+.p-text {
+  font-size: 16px;
+  font-family: "Gilroy", sans-serif;
+  color: var(--c-black);
+}
+
+.content-imgs {
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.content-imgs-wrapper {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+}
+
+.img-item {
+  width: 300px;
+}
+
+.img-item1 {
+  width: 220px;
+}
+
+.content-item {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 0px 7px 2px #223c5033;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+}
+
+.content-item:hover {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 0px 7px 2px var(--c-primary);
+}
+
+.content-item-text {
+  margin-bottom: 5px;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+/* ! Footer */
+.footer-wrapper {
+  background-color: var(--c-bgc);
+  justify-content: center;
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.contact-footer {
+  color: var(--c-primary);
+  text-decoration: none;
+  margin: 5px;
+}
+
+.contact-footer:hover {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--c-white);
+}
