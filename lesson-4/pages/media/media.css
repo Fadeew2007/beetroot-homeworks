@@ -1,0 +1,134 @@
+/* ! p-panel */
+.p-panel {
+  background-color: var(--p-c-root-beer);
+  padding: 5px 0 5px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.p-panel-nav {
+  color: var(--p-c-crayola);
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* ! header */
+
+.header {
+  padding-bottom: 40px;
+}
+
+.header-wrapper {
+  padding: 20px 0 20px 0;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--c-bgc);
+}
+
+/* ! logo */
+.logo {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+/* ! navigation */
+.navigation {
+  align-items: center;
+  display: flex;
+}
+
+.navigation-wrapper {
+  margin-right: 15px;
+}
+
+.navigation-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation-item {
+  margin: 0 10px 0 10px;
+}
+
+.navigation-link {
+  color: var(--c-primary);
+  text-decoration: none;
+}
+
+.navigation-link:hover {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--c-white);
+}
+
+/* ! content */
+
+.content {
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.teg {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.location {
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.location-wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.youtube {
+  width: 600px;
+  height: 450px;
+  border-radius: 5%;
+}
+
+/* ! Footer */
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+.footer-wrapper {
+  background-color: var(--c-bgc);
+  justify-content: center;
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.contact-footer {
+  color: var(--c-primary);
+  text-decoration: none;
+  margin: 5px;
+}
+
+.contact-footer:hover {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--c-white);
+}
+
+/* TODO Прибити футер до підлоги */
