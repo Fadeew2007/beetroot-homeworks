@@ -1,0 +1,13 @@
+/* ! p-panel */
+.p-panel {
+  background-color: var(--p-c-root-beer);
+  padding: 5px 0 5px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.p-panel-nav {
+  color: var(--p-c-crayola);
+  display: inline-block;
+  text-decoration: none;
+}
