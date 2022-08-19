@@ -21,7 +21,7 @@
   body {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;;
-    background-color: var(--main-bgb-color);
+    background-color: var(--c-background);
     font-weight: 400;
-    color: var(--main-txt-color);
+    color: var(--c-black);
   }

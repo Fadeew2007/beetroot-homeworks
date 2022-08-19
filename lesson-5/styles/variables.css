@@ -1,3 +1,7 @@
 :root {
-    --c-bgc: #fff;
+    --c-black: #070707;
+    --c-white: #fff;
+    --c-background: #fff;
+    --c-block: #F6F6F6;
+    --c-link: #828282;
 }

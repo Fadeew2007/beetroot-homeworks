@@ -11,3 +11,88 @@
   display: inline-block;
   text-decoration: none;
 }
+
+/* ! header */
+
+.header-wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.navigation {
+  filter: drop-shadow(0 4px 4px var(--c-link));
+  border-bottom: 1px solid var(--c-link);
+  justify-content: center;
+  padding: 20px 0 30px 0;
+  display: flex;
+}
+
+.navigation-item {
+  padding: 0 20px 0 20px;
+  display: inline-block;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: var(--c-link);
+}
+
+.navigation-link:hover {
+  color: var(--c-black);
+}
+
+/* ! home */
+
+.home {
+  padding: 80px 0 80px 0;
+}
+
+.home-wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home-title {
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 46px;
+}
+
+.home-img {
+  text-align: center;
+  width: 940px;
+}
+
+/* ! about me */
+
+.about-me {
+  background-color: var(--c-block);
+}
+
+.about-me-wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-me-content {
+  padding: 100px 0 100px 0;
+  text-align: center;
+}
+
+.about-me-title {
+  padding-bottom: 30px;
+  line-height: 46px;
+  font-size: 34px;
+}
+
+.about-me-text {
+  color: var(--c-black);
+  line-height: 24px;
+}
+
+.about-me-text:not(:last-child) {
+  padding-bottom: 46px;
+}
