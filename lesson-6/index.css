@@ -1,0 +1,147 @@
+/* ! p-panel */
+.p-panel {
+  background-color: var(--p-c-root-beer);
+  padding: 5px 0 5px 0;
+  text-align: center;
+  height: 32px;
+  width: 100%;
+}
+
+.p-panel-nav {
+  color: var(--p-c-crayola);
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.app {
+  border: 25px solid var(--c-dark-blue);
+  background-color: var(--c-blue);
+  height: calc(100vh - 32px);
+}
+
+.app-wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  max-width: calc(100% - 60px);
+}
+
+.header-wrapper {
+  margin: 35px 0 35px 0;
+}
+
+.header-title {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.wi {
+  font-size: 42px;
+}
+
+.wi-sunrise {
+  font-size: 26px;
+}
+
+.weather {
+  margin-bottom: 35px;
+}
+
+.weather-table-list {
+  border: 1px solid var(--c-white);
+  list-style: none;
+  font-size: 0px;
+}
+
+.small {
+  border: 1px solid var(--c-white);
+  display: inline-block;
+  text-align: center;
+  font-size: 22px;
+  width: 25%;
+}
+
+.medium {
+  border: 1px solid var(--c-white);
+  display: inline-block;
+  text-align: center;
+  font-size: 22px;
+  width: 50%;
+}
+
+.big {
+  border: 1px solid var(--c-white);
+  display: inline-block;
+  text-align: center;
+  font-size: 22px;
+  width: 100%;
+}
+
+.table-text {
+  margin-bottom: 9px;
+  display: block;
+}
+
+.first-city {
+  background-color: var(--c-blue);
+}
+
+.second-city {
+  background-color: var(--c-maximum-blue-green);
+}
+
+.third-city {
+  background-color: var(--c-french-lilac);
+}
+
+.fourth-city {
+  background-color: var(--c-watermelon-red);
+}
+
+.fifth-city {
+  background-color: var(--c-jelly-bean);
+}
+
+.sixth-city {
+  background-color: var(--c-orange-yellow);
+}
+
+.seventh-city {
+  background-color: var(--c-eton-blue);
+}
+
+.eighth-city {
+  background-color: var(--c-desaturated-cyan);
+}
+
+.ninth-city {
+  background-color: var(--c-wild-orchid);
+}
+
+.tenth-city {
+  background-color: var(--c-illuminating-emerald);
+}
+
+.eleventh-city {
+  background-color: var(--c-dark-blue-gray);
+}
+
+li {
+  padding: 27px 0 27px 0;
+}
+
+ul:hover li {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0.7;
+}
+
+ul:hover li:hover {
+  transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1;
+}
+
+.footer-text {
+  font-size: 16px;
+}
