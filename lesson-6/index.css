@@ -14,6 +14,7 @@
   font-size: 16px;
 }
 
+/* ! app */
 .app {
   border: 25px solid var(--c-dark-blue);
   background-color: var(--c-blue);
@@ -21,11 +22,12 @@
 }
 
 .app-wrapper {
-  width: 1170px;
-  margin: 0 auto;
   max-width: calc(100% - 60px);
+  margin: 0 auto;
+  width: 1170px;
 }
 
+/* ! header */
 .header-wrapper {
   margin: 35px 0 35px 0;
 }
@@ -37,6 +39,7 @@
   line-height: 1;
 }
 
+/* ! weather font */
 .wi {
   font-size: 42px;
 }
@@ -45,6 +48,7 @@
   font-size: 26px;
 }
 
+/* ! main content */
 .weather {
   margin-bottom: 35px;
 }
@@ -72,6 +76,7 @@
   display: block;
 }
 
+/* ! cities */
 .first-city {
   background-color: var(--c-blue);
 }
@@ -116,15 +121,17 @@
   background-color: var(--c-dark-blue-gray);
 }
 
+/* ! table items */
+
 li {
   transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 27px 0 27px 0;
-  cursor: pointer;
+  cursor:  url(./assets/cursor.png), auto;
   border: 1px solid var(--c-white);
+  padding: 27px 0 27px 0;
   display: inline-block;
+  vertical-align: top;
   text-align: center;
   font-size: 22px;
-  vertical-align: top;
 }
 
 ul {
@@ -140,10 +147,11 @@ ul:hover li:hover {
   opacity: 1;
 }
 
+/* ! city inside content */
 .table-info {
-  display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .table-degrees {
