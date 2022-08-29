@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--c-white);
+  font-size: var(--f-text);
+  color: var(--c-text);
+  line-height: 1.44;
+  font-weight: 500;
+}
+
+.button {
+  border: 1px solid var(--c-beau-blue);
+  background-color: var(--c-white);
+  transition: var(--transition);
+  align-items: center;
+  border-radius: 4px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 0 20px;
+  cursor: pointer;
+  display: flex;
+  height: 46px;
+}
+
+.button:hover {
+  background-color: var(--c-beau-blue);
+}
+
+.button--orange {
+  background-color: var(--c-orange);
+  border-color: var(--c-orange);
+  color: var(--c-white);
+}
+
+.button--orange:hover {
+  background-color: var(--c-orange);
+  opacity: 0.8;
+}

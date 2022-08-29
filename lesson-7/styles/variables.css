@@ -1,0 +1,21 @@
+:root {
+  /* COLORS */
+  --c-beau-blue: #bcd0e5;
+  --c-orange: #FF9900;
+  --c-white: #FFFFFF;
+  --c-black: #2F281E;
+  --c-logo: #173A56;
+  --c-text: #544837;
+  --c-footer-border: #bcd0e580;
+
+  /* FONT */
+  --f-medium-titles: 36px;
+  --f-small-titles: 22px;
+  --f-footer-titles: 20px;
+  --f-title: 44px;
+  --f-text: 16px;
+  --ff-footer-titles: 'Gotham', sans-serif;
+
+  /* CUBIC BEZIER */
+  --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);  
+}
