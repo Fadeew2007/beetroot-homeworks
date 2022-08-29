@@ -14,7 +14,7 @@
   --f-footer-titles: 20px;
   --f-title: 44px;
   --f-text: 16px;
-  --ff-footer-titles: 'Gotham', sans-serif;
+  --ff-footer-titles: 'Gotham-1', sans-serif;
 
   /* CUBIC BEZIER */
   --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);  
