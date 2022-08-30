@@ -1,0 +1,22 @@
+:root {
+  --p-c-root-beer: #220901;
+  --p-c-blood: #621708;
+  --p-c-spartan-crimson: #941b0c;
+  --p-c-roost: #bc3908;
+  --p-c-crayola: #f6aa1c;
+}
+
+.p-panel {
+  background-color: var(--p-c-root-beer);
+  padding: 5px 0 5px 0;
+  text-align: center;
+  height: 32px;
+  width: 100%;
+}
+
+.p-panel-nav {
+  color: var(--p-c-crayola);
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+}

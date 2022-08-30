@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: var(--f-all-text);
+  font-family: var(--ff-font);
+  color: var(--c-white);
+  background-color: var(--c-body);
+}
+
+.wrapper {
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  width: 550px;
+}
+
