@@ -1,0 +1,22 @@
+:root {
+  /* COLORS */
+  --с-white: #FFFFFF;
+  --c-black: #000000;
+  --c-light-gray: #DADADA;
+  --c-light-black: #1A1A1A;
+  --c-dark-grey: #969696;
+  --c-hover: red;
+  --c-blue: blue;
+
+  /* FONT SIZE */
+  --f-main: 28px;
+  --f-header: 22px;
+  --f-titles: 36px;
+  --f-chapters: 20px;
+  
+  /* FONT FAMILY */
+  --ff-font: 'PT Sans', sans-serif;
+
+  /* TRANSITION */
+  --t-bezier: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,117 @@
+/* !HEADER */
+.header {
+  margin-bottom: 80px;
+}
+
+.header-wrapper {
+	justify-content: space-between;
+  padding: 15px 0 15px 0;
+  align-items: center;
+  display: flex;
+}
+
+/* !HEADER NAVIGATION */
+.header-nav {
+  justify-content: space-between;
+  font-size: var(--f-header);
+  align-items: center;
+  max-width: 370px;
+  display: flex;
+  width: 100%;
+}
+
+.nav-language-link {
+  font-family: "Tourney", cursive;
+  transition: var(--t-bezier);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  color: var(--c-black);
+  line-height: 1;
+}
+
+.nav-language-link:hover {
+  color: var(--c-hover);
+}
+
+.navigation-list {
+  align-items: center;
+  display: flex;
+}
+
+.navigation-item {
+  margin: 0 5px 0 5px;
+}
+
+.navigation-link {
+  font-family: "Staatliches", cursive;
+  transition: var(--t-bezier);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--c-black);
+  text-decoration: none;
+  line-height: 1;
+}
+
+.navigation-link:hover {
+  color: var(--c-hover);
+}
+
+/* !CHAPTER */
+.chapter {
+  margin-bottom: 70px;
+}
+
+.chapter-titles {
+  display: flex;
+}
+
+.chapter-title {
+  font-family: "Francois One", sans-serif;
+  font-size: var(--f-titles);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-style: normal;
+  margin-right: 10px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.chapter-subtitle {
+  font-family: "Farro", sans-serif;
+  font-size: var(--f-chapters);
+  letter-spacing: 0.04em;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.chapter-p {
+  font-family: "PT Sans", sans-serif;
+  line-height: 48px;
+	margin-top: 34px;
+}
+
+/* !TEXT STYLES */
+.p-underline {
+  text-decoration: underline;
+}
+
+.p-italic {
+	font-style: italic;
+}
+
+.p-bold {
+	font-weight: 700;
+}
+
+.p-background {
+	background-color: var(--c-light-gray);
+}
+
+.p-arrow::before {
+content: "<";
+}
+
+.p-arrow::after {
+	content: ">";
+	}
