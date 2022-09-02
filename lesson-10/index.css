@@ -1,0 +1,172 @@
+/* CONTAINER */
+.container-wrapper {
+  padding: 100px;
+}
+
+.content-wrapper {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 600px;
+  width: 600px;
+}
+/* BIG CIRCLE */
+.big-circle {
+  background-color: var(--c-yellow);
+  left: calc(50% - 130px);
+  top: calc(50% - 130px);
+  border-radius: 50%;
+  position: absolute;
+  height: 260px;
+  width: 260px;
+  z-index: 99;
+  transition: var(--t-fast);
+}
+
+.big-circle-text {
+  position: absolute;
+  right: calc(50% - 95px);
+  top: calc(50% - 18px);
+  z-index: 100;
+  display: none;
+}
+
+/* CIRCLE TEXT */
+.title {
+  color: var(--c-absolute-zero);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* LINES */
+.another-parts {
+  transition: var(--t-transition);
+  height: 100%;
+  width: 100%;
+}
+
+.line {
+  background-color: var(--c-grey);
+  width: calc(100% - 160px);
+  top: calc(50% - 6px);
+  position: absolute;
+  height: 6px;
+  left: 80px;
+}
+
+.line--45 {
+  transform: rotate(45deg);
+}
+
+.line--90 {
+  transform: rotate(90deg);
+}
+.line--135 {
+  transform: rotate(135deg);
+}
+
+/* CIRCLES */
+.small-circle {
+  transition: var(--t-transition);
+  background-color: var(--c-red);
+  left: calc(50% - 50px);
+  border-radius: 50%;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0;
+  transition: 0.6s;
+}
+
+.circle--right {
+  top: calc(50% - 50px);
+  left: auto;
+  right: 0;
+}
+
+.circle--bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.circle--left {
+  top: calc(50% - 50px);
+  right: auto;
+  left: 0;
+}
+
+.circle--biggest {
+  height: 160px;
+  width: 160px;
+}
+
+.big--top-right {
+  right: 20px;
+  left: auto;
+  top: 20px;
+}
+
+.big--bottom-right {
+  bottom: 20px;
+  right: 20px;
+  left: auto;
+  top: auto;
+}
+
+.big--bottom-left {
+  bottom: 20px;
+  right: auto;
+  left: 20px;
+  top: auto;
+}
+
+.big--top-left {
+  right: auto;
+  left: 20px;
+  top: 20px;
+}
+
+/* HOVERS */
+.big-circle:hover {
+  background-color: var(--c-absolute-zero);
+}
+
+.big-circle:hover ~ .another-parts {
+  transform: rotate(720deg);
+}
+
+.big-circle:hover .big-circle-text {
+  display: block;
+}
+
+.small-circle:hover {
+  transform: translateY(68px);
+}
+
+.circle--right:hover {
+  transform: translate(-68px);
+}
+
+.circle--bottom:hover {
+  transform: translateY(-68px);
+}
+
+.circle--left:hover {
+  transform: translate(68px);
+}
+
+.big--top-right:hover {
+  transform: translate(-50px, 50px);
+}
+
+.big--bottom-right:hover {
+  transform: translate(-50px, -50px);
+}
+
+.big--bottom-left:hover {
+  transform: translate(50px, -50px);
+}
+
+.big--top-left:hover {
+  transform: translate(50px, 50px);
+}

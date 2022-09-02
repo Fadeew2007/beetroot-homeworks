@@ -1,0 +1,11 @@
+:root {
+  /** Colors */
+  --c-dark-grey: #414453;
+  --c-red: #ff545b;
+  --c-yellow: #ffd700;
+  --c-grey: #808391;
+	--c-absolute-zero: #0057B7;
+
+	--t-transition: 4s cubic-bezier(0,1.43,.82,.26);
+	--t-fast: 2s cubic-bezier(0,.71,.93,.92)
+}
