@@ -1,6 +1,9 @@
 /* !HEADER */
 .header {
   border-bottom: 1px solid var(--c-gray);
+  background-color: var(--c-white);
+  position: sticky;
+  top: 0;
 }
 
 .header__wrapper {
