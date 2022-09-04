@@ -1,0 +1,271 @@
+/* !HEADER */
+.header {
+  border-bottom: 1px solid var(--c-gray);
+}
+
+.header__wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+/* !HEADER LOGO */
+.header__logo {
+  padding-right: 10px;
+}
+
+.logo a {
+  align-items: center;
+  display: flex;
+}
+
+.logo__image {
+  max-width: 100%;
+  padding: 10px 10px 10px 0;
+}
+
+.logo__text {
+  font-family: var(--ff-train-one);
+  color: var(--c-raisin-black);
+  text-transform: uppercase;
+  font-size: var(--fs-30);
+  line-height: 43px;
+  font-weight: 400;
+}
+
+/* !HEADER MENU */
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item {
+  padding: 0 15px 0 15px;
+}
+
+.navigation__link {
+  transition: var(--t-bezier);
+  color: var(--c-black-olive);
+  text-transform: uppercase;
+  font-size: var(--fs-20);
+  line-height: 24px;
+}
+
+.navigation__link:hover {
+  color: var(--c-battery-charged-blue);
+}
+
+/* !BUTTONS */
+.button {
+  border: 1px solid var(--c-black-olive);
+  background-color: var(--c-white);
+  transition: var(--t-bezier);
+  color: var(--c-black-olive);
+  text-transform: uppercase;
+  font-size: var(--fs-18);
+  align-items: center;
+  padding: 10px 20px;
+  line-height: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+}
+
+/* !HEADER BUTTON */
+.header__button {
+  white-space: nowrap;
+}
+
+.header__button:hover {
+  background-color: var(--c-battery-charged-blue);
+  border-color: var(--c-battery-charged-blue);
+  color: var(--c-white);
+}
+
+/* !BANNER BLOCK */
+.banner {
+  background-color: var(--c-cultured);
+}
+
+.banner-wrapper {
+  flex-direction: column;
+  padding-bottom: 150px;
+  align-items: center;
+  padding-top: 150px;
+  display: flex;
+}
+
+/* !BANNER TITLE */
+.banner__title {
+  padding-bottom: 40px;
+}
+
+.banner h1 {
+  text-transform: uppercase;
+  font-size: var(--fs-34);
+  letter-spacing: 0.13em;
+  line-height: 41px;
+  font-weight: 700;
+}
+
+.banner__title::after {
+  background-color: var(--c-gainsboro);
+  margin: 20px auto 0;
+  display: flex;
+  content: "";
+  height: 4px;
+  width: 45px;
+}
+
+/* !BANNER TEXT */
+.banner__text {
+  padding-bottom: 60px;
+}
+
+.banner p {
+  text-align: center;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+/* !TEAM MEMBERS */
+.team__cards {
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.card {
+  padding-right: 15px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.card__wrapper {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.card__image {
+  height: 270px;
+  width: 270px;
+}
+
+.card__image img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+/* !BANNER HOVER ICONS */
+.card-icons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.team__card-icons {
+  background-color: var(--c-battery-charged-blue);
+  transition: var(--t-bezier);
+  position: absolute;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.card-icons__wrapper {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.social {
+  justify-content: center;
+  font-size: var(--fs-20);
+  align-items: center;
+  display: flex;
+  height: 42px;
+  width: 42px;
+}
+
+.card__social {
+  background-color: var(--c-sky-blue);
+  transition: var(--t-bezier);
+  color: var(--c-white);
+  margin: 2px;
+}
+
+.card__social:hover {
+  background-color: var(--c-white);
+  color: var(--c-sky-blue);
+}
+
+.card:hover .team__card-icons {
+  opacity: 1;
+}
+
+/* !TEAM MEMBER TEXTS */
+.card-texts {
+  font-size: var(--fs-18);
+  flex-direction: column;
+  line-height: 22px;
+  display: flex;
+}
+
+.card-texts h2 {
+  color: var(--c-raisin-black);
+  font-weight: 700;
+}
+
+.card-texts span {
+  color: var(--c-granite-grey);
+  font-weight: 300;
+}
+
+/* !FOOTER */
+.footer__wrapper {
+  padding: 40px 0 40px 0;
+}
+
+.footer__content {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+/* !FOOTER LOGO */
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+/* !FOOTER MENU */
+.footer__navigation {
+  margin-bottom: 20px;
+}
+
+.footer__navigation a {
+  font-size: var(--fs-18);
+  line-height: 22px;
+}
+
+/* !FOOTER SOCIAL */
+.footer__card-icons {
+  justify-content: center;
+  display: flex;
+}
+
+.social--white {
+  border: 1px solid var(--c-battery-charged-blue);
+  color: var(--c-battery-charged-blue);
+  background-color: var(--c-white);
+  transition: var(--t-bezier);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.social--white:hover {
+  border: 1px solid var(--c-battery-charged-blue);
+  background-color: var(--c-battery-charged-blue);
+  color: var(--c-white);
+}
