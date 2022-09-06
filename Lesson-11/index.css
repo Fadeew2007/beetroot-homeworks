@@ -69,19 +69,15 @@
   text-transform: uppercase;
   font-size: var(--fs-18);
   align-items: center;
-  padding: 10px 20px;
-  line-height: 22px;
+  padding: 0 20px;
+  line-height: 1;
   font-weight: 600;
   cursor: pointer;
   display: flex;
+  height: 44px;
 }
 
-/* !HEADER BUTTON */
-.header__button {
-  white-space: nowrap;
-}
-
-.header__button:hover {
+.button:hover {
   background-color: var(--c-battery-charged-blue);
   border-color: var(--c-battery-charged-blue);
   color: var(--c-white);
