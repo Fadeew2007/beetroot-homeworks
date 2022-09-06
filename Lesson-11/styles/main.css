@@ -34,8 +34,9 @@ body {
 }
 
 .wrapper {
-  max-width: calc(100% - 40px);
+  max-width: 1210px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
-  width: 1170px;
 }
-
