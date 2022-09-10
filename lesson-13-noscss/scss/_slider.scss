@@ -47,10 +47,6 @@
   }
 }
 
-.slider > div:nth-child(2n) {
-  border-left: 1px solid $c-tangerine-yellow;
-}
-
 .slider {
   &__right {
     padding: 80px 0 80px 0;
@@ -142,6 +138,10 @@
   &__link:last-child {
     margin-right: 0px;
   }
+}
+
+.slider__wrapper > div:nth-child(2n) {
+  border-left: 1px solid $c-tangerine-yellow;
 }
 
 .button {
