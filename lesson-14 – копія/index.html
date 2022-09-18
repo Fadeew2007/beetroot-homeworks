@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <!-- * FAVICON -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- * STYLE -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- ! P-PANEL -->
+    <div class="p-panel">
+      <div class="p-panel__wrapper">
+        <a href="../index.html" class="p-panel__nav">Return to all homeworks</a>
+      </div>
+    </div>
+    <!-- !HEADER -->
+    <header></header>
+    <div class="app">
+      <div class="banner">
+        <div class="wrapper banner__wrapper">
+          <div class="forms">
+            <h2 class="form__title">Create an Account</h2>
+            <form action="get" class="form">
+              <div class="form__double-form">
+                <div class="form__block">
+                  <div class="form__text">First Name</div>
+                  <label class="form__item">
+                    <input type="text" name="firstName" class="form__input" />
+                    <div class="form__warning">
+                      Please write your first name
+                    </div>
+                  </label>
+                </div>
+                <div class="form__block">
+                  <div class="form__text">Last Name</div>
+                  <label class="form__item">
+                    <input type="text" name="lastName" class="form__input" />
+                    <div class="form__warning">Please write your last name</div>
+                  </label>
+                </div>
+              </div>
+              <div class="form__single-form">
+                <div class="form__text">Email</div>
+                <label class="form__item">
+                  <input type="email" name="email" class="form__input" />
+                  <div class="form__warning">Please write your e-mail</div>
+                  <div class="form__explain">
+                    We'll never share your email with anyone else.
+                  </div>
+                </label>
+              </div>
+              <div class="form__sex">
+                <div class="form__sex-radios">
+                  <div class="form__sex-block">
+                    <div class="form__block">
+                      <label class="form__item">
+                        <input
+                          type="radio"
+                          checked
+                          name="sex"
+                          value="male"
+                          class="form__input form__input--hide"
+                        />
+                        <div class="form__item--circle">
+                          <div class="form__item--small"></div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form__text">Male</div>
+                  </div>
+                  <div class="form__sex-block">
+                    <div class="form__block">
+                      <label class="form__item">
+                        <input
+                          type="radio"
+                          name="sex"
+                          value="female"
+                          class="form__input form__input--hide"
+                        />
+                        <div class="form__item--circle">
+                          <div class="form__item--small"></div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form__text">Female</div>
+                  </div>
+                  <div class="form__sex-block">
+                    <div class="form__block">
+                      <label class="form__item">
+                        <input
+                          type="radio"
+                          name="sex"
+                          value="other"
+                          class="form__input form__input--hide"
+                        />
+                        <div class="form__item--circle">
+                          <div class="form__item--small"></div>
+                        </div>
+                      </label>
+                    </div>
+                    <div class="form__text">Other</div>
+                  </div>
+                </div>
+                <div class="form__warning--right">Please select your sex</div>
+              </div>
+              <div class="form__double-form">
+                <div class="form__block">
+                  <div class="form__text">Country</div>
+                  <label class="form__item">
+                    <select name="country" class="form__select">
+                      <option value="" disabled selected>Select</option>
+                      <option value="Ukraine">Ukraine</option>
+                      <option value="USA">USA</option>
+                      <option value="Poland">Poland</option>
+                    </select>
+                    <div class="form__warning">Please select your country</div>
+                  </label>
+                </div>
+                <div class="form__block">
+                  <div class="form__text">City</div>
+                  <label class="form__item">
+                    <input type="text" name="city" class="form__input" />
+                    <div class="form__warning">Please write your city</div>
+                  </label>
+                </div>
+              </div>
+              <div class="form__button">
+                <button class="button" type="submit">
+                  <span><b>Sign Up</b></span>
+                </button>
+              </div>
+              <div class="form__subtext">
+                <p>
+                  By clicking the 'Sign Up' button, you confirm that you accept
+                  our <br />
+                  and <a href="#" class="form__link">Terms of Use</a> and
+                  <a href="#" class="form__link">Privacy Policy</a>.
+                </p>
+              </div>
+              <div class="form__footer">
+                <span class="form__footer-text">Have an account?</span>
+                <a href="#" class="form__link">
+                  <b>Log In</b>
+                </a>
+              </div>
+            </form>
+          </div>
+          <div class="forms">
+            <h2 class="form__title">Profile</h2>
+            <form action="get" class="form">
+              <div class="form__block-insert">
+                <div class="form__image">
+                  <img
+                    class="form__image-photo"
+                    src="./assets/images/photo.jpg"
+                    alt="Your photo"
+                  />
+                </div>
+                <div class="form__content">
+                  <label class="form__item">
+                    <input type="file" class="form__input form__input-file" />
+                    <div class="form__input form__input--small">
+                      <img
+                        src="./assets/images/camera.svg"
+                        alt="camera"
+                        class="form__icon"
+                      />
+                    </div>
+                    <div class="form__warning">
+                      File is too big
+                    </div>
+                    <div class="form__explain">Up to 1 MB (300x300 px)</div>
+                  </label>
+                  <button class="button button--bucket" type="reset">
+                    <img src="./assets/images/bucket.svg" alt="bucket">
+                  </button>
+                </div>
+              </div>
+              <div class="form__double-form">
+                <div class="form__block">
+                  <div class="form__text">Name</div>
+                  <label class="form__item">
+                    <input type="text" name="Name" class="form__input" />
+                    <div class="form__warning">
+                      Please write your name
+                    </div>
+                  </label>
+                </div>
+                <div class="form__block">
+                  <div class="form__text">E-mail</div>
+                  <label class="form__item">
+                    <input type="email" name="email" class="form__input" />
+                    <div class="form__warning">Please write your e-mail</div>
+                  </label>
+                </div>
+              </div>
+              <div class="form__double-form">
+                <div class="form__block">
+                  <div class="form__text">Country</div>
+                  <label class="form__item">
+                    <select name="country" class="form__select">
+                      <option value="" disabled selected>Select</option>
+                      <option value="Ukraine">Ukraine</option>
+                      <option value="USA">USA</option>
+                      <option value="Poland">Poland</option>
+                    </select>
+                    <div class="form__warning">Please select your country</div>
+                  </label>
+                </div>
+                <div class="form__block">
+                  <div class="form__text">City</div>
+                  <label class="form__item">
+                    <input type="text" name="city" class="form__input" />
+                    <div class="form__warning">Please write your city</div>
+                  </label>
+                </div>
+              </div>
+              <div class="form__double-form">
+                <div class="form__block">
+                  <div class="form__text">Zip Code</div>
+                  <label class="form__item">
+                    <input type="text" name="zipCode" class="form__input" />
+                    <div class="form__warning">
+                      Please write your zip code
+                    </div>
+                  </label>
+                </div>
+                <div class="form__block">
+                  <div class="form__text">Phone Number</div>
+                  <label class="form__item">
+                    <input type="tel" name="phone" class="form__input" />
+                    <div class="form__warning">Please write your phone number</div>
+                  </label>
+                </div>
+              </div>
+              <div class="form__button">
+                <button class="button button--small" type="submit">
+                  <span><b>Update</b></span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
