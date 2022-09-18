@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $c-cultured;
+  font-size: $fs-base + px;
+  color: $c-davys-grey;
+  font-family: $ff-base;
+}
+
+h2 {
+  color: $c-earie-black;
+  line-height: 1;
+  font-size: $fs-title + px;
+  font-weight: 500;
+}
+
+.wrapper {
+  padding-right: 20px;
+  padding-left: 20px;
+  max-width: 1210px;
+  margin: 0 auto;
+  width: 100%;
+}
