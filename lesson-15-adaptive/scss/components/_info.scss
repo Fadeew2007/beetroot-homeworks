@@ -1,0 +1,52 @@
+.info {
+  &__wrapper {
+    justify-content: space-between;
+    margin-bottom: 90px;
+    display: flex;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      display: flex;
+    }
+
+    @media (max-width: 320px) {
+      margin-bottom: 70px;
+    }
+  }
+
+  &__left {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: $fs-h2 + px;
+    letter-spacing: 0.1em;
+    margin-right: 30px;
+    line-height: 166%;
+    color: $c-black;
+
+    @media (max-width: 768px) {
+      margin-bottom: 50px;
+      margin-right: 0px;
+    }
+
+    @media (max-width: 320px) {
+      margin-bottom: 35px;
+      margin-right: 0px;
+    }
+  }
+
+  &__right {
+    font-size: $fs-h3 + px;
+    line-height: 32px;
+
+    @media (max-width: 768px) {
+      justify-content: flex-end;
+      text-align: end;
+      display: flex;
+    }
+
+    @media (max-width: 320px) {
+      justify-content: flex-start;
+      text-align: start;
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.arrow {
+  display: inline-block;
+  transition: $t-normal;
+  color: $c-gray;
+
+  &:hover {
+    color: $c-black;
+  }
+
+  &__text {
+    letter-spacing: 0.1em;
+    line-height: 166%;
+  }
+}

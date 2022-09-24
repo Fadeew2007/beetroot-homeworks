@@ -1,0 +1,12 @@
+@import "./normalize";
+@import "./fonts";
+@import './variables';
+@import './mixins';
+@import './main';
+
+// components
+@import "./components/index";
+
+// elements
+
+@import "./elements/index";

@@ -1,0 +1,150 @@
+.blog {
+  &__title {
+    margin-bottom: 50px;
+
+    @media (max-width: 320px) {
+      justify-content: center;
+      display: flex;
+    }
+  }
+
+  &__article {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    display: flex;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+
+    @media (max-width: 320px) {
+      flex-direction: column;
+      display: flex;
+    }
+
+    @media (max-width: 320px) {
+      align-items: flex-start;
+      flex-direction: column;
+      flex-wrap: wrap;
+      display: flex;
+    }
+  }
+
+  .blog__article--reverse {
+    flex-direction: row-reverse;
+
+    @media (max-width: 320px) {
+      align-items: flex-start;
+      flex-direction: column;
+      flex-wrap: wrap;
+      display: flex;
+    }
+  }
+
+  &__image {
+    @media (max-width: 768px) {
+      min-width: 340px;
+    }
+    @media (max-width: 320px) {
+      min-width: 100%;
+    }
+  }
+
+  &__info {
+    &-teg {
+      margin-bottom: 30px;
+    }
+
+    &-title {
+      margin-bottom: 15px;
+
+      @media (max-width: 320px) {
+        margin-bottom: 10px;
+      }
+    }
+
+    &-date {
+      letter-spacing: 0.1em;
+      margin-bottom: 50px;
+      line-height: 166%;
+      color: $c-gray;
+
+      @media (max-width: 768px) {
+        margin-bottom: 40px;
+      }
+    }
+
+    &-text {
+      letter-spacing: 0.05em;
+      line-height: 166%;
+    }
+
+    &--right {
+      flex-direction: column;
+      margin-left: 120px;
+      margin-right: 30px;
+      display: flex;
+
+      @media (max-width: 768px) {
+        margin-right: 20px;
+        margin-left: 0px;
+        width: 50%;
+      }
+
+      @media (max-width: 320px) {
+        margin-bottom: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+      }
+    }
+
+    &--left {
+      flex-direction: column;
+      margin-right: 120px;
+      margin-left: 30px;
+      display: flex;
+
+      @media (max-width: 768px) {
+        margin-left: 20px;
+        margin-right: 0px;
+        width: 50%;
+      }
+
+      @media (max-width: 320px) {
+        margin-bottom: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;
+      }
+    }
+  }
+
+  &__heading {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    display: flex;
+
+    @media (max-width: 320px) {
+      align-items: flex-start;
+      flex-direction: column;
+      margin-bottom: 30px;
+      display: flex;
+    }
+
+    &-title {
+      @media (max-width: 320px) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &__button {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+  }
+}
