@@ -1,0 +1,45 @@
+.header {
+  background-color: $c-white;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+
+  &__wrapper {
+    justify-content: space-between;
+    padding-bottom: 40px;
+    align-items: center;
+    padding-top: 40px;
+    display: flex;
+    height: 100px;
+
+    @media (max-width: 320px) {
+      padding-bottom: 24px;
+      padding-top: 24px;
+      height: 60px;
+    }
+  }
+
+  &__block {
+    align-items: center;
+    display: flex;
+  }
+
+  &__search {
+    margin-left: 80px;
+    min-height: 16px;
+    cursor: pointer;
+    min-width: 16px;
+
+    @media (max-width: 320px) {
+      margin-left: 20px;
+    }
+  }
+
+  &__burger {
+    // margin-left: 40px;
+
+    @media (max-width: 320px) {
+      margin-left: 20px;
+    }
+  }
+}

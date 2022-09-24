@@ -1,0 +1,21 @@
+.p-panel {
+  background-color: $c-cultured;
+  padding: 5px 0 5px 0;
+  width: 100%;
+
+  &__wrapper {
+    justify-content: center;
+    display: flex;
+  }
+
+  &__nav {
+    text-decoration: none;
+    transition: $t-normal;
+    color: $c-davys-grey;
+    font-size: 16px;
+  }
+
+  &__nav:hover {
+    color: $c-electric-red;
+  }
+}

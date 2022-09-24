@@ -1,0 +1,45 @@
+.navigation {
+  align-items: center;
+  display: flex;
+  
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 40px;
+  }
+
+  &__item:last-child {
+    margin-right: 0px;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    font-size: $fs-h8 + px;
+    letter-spacing: 0.3em;
+    transition: $t-normal;
+    position: relative;
+    color: $c-black;
+    line-height: 1;
+  }
+
+  &__link:before {
+    transition-property: transform, opacity;
+    background-color: $c-black;
+    transform: translateY(4px);
+    transition-duration: 0.3s;
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    content: "";
+    width: 50%;
+    opacity: 0;
+    left: 24%;
+  }
+
+  &__link:hover:before {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

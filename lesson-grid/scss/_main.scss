@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $c-white;
+  font-size: $fs-base + px;
+  font-family: $ff-base;
+  color: $c-davys-grey;
+}
+
+p {
+  letter-spacing: 0.05em;
+  line-height: 166%;
+}
+
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: $fs-h1 + px;
+  letter-spacing: 0.05em;
+  line-height: 64px;
+  font-weight: 600;
+  color: $c-black;
+  
+  @media (max-width: 768px) {
+    font-size: $fs-tablet-h1-h2 + px;
+    line-height: 50px;
+  }
+  @media (max-width: 320px) {
+    font-size: $fs-mobile-h1-h2 + px;
+  }
+}
+
+h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: $fs-h1 + px;
+  letter-spacing: 0.05em;
+  line-height: 64px;
+  font-weight: 600;
+  color: $c-black;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-size: $fs-base + px;
+  letter-spacing: 0.1em;
+  line-height: 166%;
+  font-weight: 400;
+  color: $c-gray;
+}
+
+h4 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: $fs-h2 + px;
+  line-height: 166%;
+  font-weight: 500;
+  color: $c-black;
+
+  @media (max-width: 320px) {
+    font-size: $fs-22 + px;
+  }
+}
+
+h5 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: $fs-h5 + px;
+  letter-spacing: 0.1em;
+  line-height: 166%;
+  font-weight: 600;
+  color: $c-black;
+}
+
+.wrapper {
+  padding-right: 20px;
+  padding-left: 20px;
+  max-width: 1210px;
+  margin: 0 auto;
+  width: 100%;
+
+  @media (max-width: 320px) {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}

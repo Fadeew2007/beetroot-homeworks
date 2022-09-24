@@ -1,0 +1,13 @@
+.logo {
+  align-items: center;
+  display: flex;
+
+  &__text {
+    text-transform: uppercase;
+    font-size: $fs-logo + px;
+    letter-spacing: 10px;
+    font-weight: 700;
+    color: $c-black;
+    line-height: 1;
+  }
+}
