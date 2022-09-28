@@ -1,5 +1,5 @@
 .p-panel {
-  background-color: $c-cultured;
+  background-color: $c-dark-liver;
   padding: 5px 0 5px 0;
   width: 100%;
 
@@ -9,13 +9,13 @@
   }
 
   &__nav {
+    color: $c-chinese-white;
     text-decoration: none;
     transition: $t-normal;
-    color: $c-davys-grey;
-    font-size: 16px;
+    font-size: em(16);
   }
 
   &__nav:hover {
-    color: $c-electric-red;
+    color: $c-black;
   }
 }

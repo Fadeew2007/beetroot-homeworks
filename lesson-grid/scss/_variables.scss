@@ -2,30 +2,17 @@
 $b-normal: cubic-bezier(0.4, 0, 0.2, 1);
 
 // * FONT FAMILY
-$ff-base: lato, sans-serif;
+$ff-base: 'Roboto', sans-serif;
 
 // * COLORS
-$c-dark-charcoal: #323232;
-$c-electric-red: #E10000;
-$c-chinese-silver: #CCC;
-$c-davys-grey: #565656;
-$c-cultured: #F4F4F4;
-$c-gray: #7B7B7B;
-$c-black: #000;
+$c-chinese-white: #E0E0E0;
+$c-dark-liver: #4F4F4F;
 $c-white: #fff;
+$c-black: #000;
+
 
 // * TRANSITION
 $t-normal: 0.35s $b-normal;
 
 // * FONT-SIZE
-$fs-tablet-h1-h2: 36;
-$fs-mobile-h1-h2: 30;
-$fs-base: 16;
-$fs-logo: 18;
-$fs-h1: 48;
-$fs-h2: 24;
-$fs-h3: 20;
-$fs-h8: 14;
-$fs-h9: 12;
-$fs-h5: 28;
-$fs-22: 22;
+$fs-base: 20;
