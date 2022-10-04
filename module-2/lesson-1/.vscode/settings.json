@@ -1,0 +1,5 @@
+{
+  "typescript.validate.enable": true,
+  "editor.showDeprecated": false,
+  "typescript.inlayHints.variableTypes.enabled": false
+}
