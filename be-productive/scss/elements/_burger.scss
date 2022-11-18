@@ -1,0 +1,32 @@
+.burger {
+  color: $c-white;
+  display: none;
+
+  @media (max-width: 767px) {
+    display: flex;
+  }
+
+  &__button {
+    background-color: transparent;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    border: none;
+    z-index: 300;
+  }
+
+  &__line {
+    background-color: $c-floral-white;
+    transition: $t-normal;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    display: block;
+    width: 25px;
+    height: 2px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

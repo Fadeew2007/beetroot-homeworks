@@ -1,0 +1,129 @@
+.banner {
+  height: calc(100vh - 160px);
+  position: relative;
+
+  @media (max-width: 375px) {
+    margin-bottom: 40px;
+    height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+    height: 100%;
+  }
+
+  &__wrapper {
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+
+    @media (max-width: 576px) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__description {
+    flex-direction: column;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    width: 50%;
+
+    @media (max-width: 576px) {
+      padding-right: 25px;
+      padding-left: 25px;
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    font-size: em(45);
+    line-height: 52px;
+
+    @media (max-width: 375px) {
+      font-size: em(24);
+      line-height: 32px;
+    }
+  }
+
+  &__text {
+    color: $c-chinese-silver;
+    margin-bottom: 32px;
+    font-size: em(22);
+    line-height: 28px;
+
+    @media (max-width: 375px) {
+      font-size: em(14);
+      line-height: 20px;
+    }
+  }
+
+  &__ellipse {
+    animation: rotating 3.0s infinite linear;
+
+    @media (max-width: 992px) {
+      display: none;
+    }
+    &--small {
+      position: absolute;
+      z-index: -1;
+      right: 43px;
+      top: 190px;
+    }
+
+    &--medium {
+      position: absolute;
+      right: 158px;
+      z-index: -1;
+      top: 266px;
+    }
+    &--big {
+      position: absolute;
+      z-index: -1;
+      left: 100px;
+      top: 336px;
+    }
+  }
+
+  &__content {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    width: 50%;
+
+    @media (max-width: 576px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__image {
+    justify-content: center;
+    max-width: 268px;
+    margin-top: 16px;
+    z-index: 1;
+
+    @media (max-width: 992px) {
+      max-width: 220px;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 170px;
+    }
+
+    @media (max-width: 576px) {
+      max-width: 220px;
+    }
+
+    @media (max-width: 375px) {
+      max-width: 126px;
+    }
+  }
+
+  &__button {
+    display: flex;
+  }
+}
+

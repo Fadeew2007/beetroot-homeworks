@@ -1,0 +1,42 @@
+.header {
+  background: $c-gradient-orange;
+  margin-bottom: 80px;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+
+  @media (max-width: 375px) {
+    margin-bottom: 20px;
+  }
+
+  &__wrapper {
+    justify-content: space-between;
+    padding-bottom: 18px;
+    align-items: center;
+    padding-top: 18px;
+    display: flex;
+  }
+
+  &__language {
+    align-items: center;
+    font-size: em(24);
+    color: $c-white;
+    display: flex;
+
+    @media (max-width: 767px) {
+      pointer-events: none;
+      display: none;
+    }
+  }
+
+  &__lang {
+    text-transform: uppercase;
+    font-family: $ff-inter;
+    margin-left: 8px;
+    font-size: 16px;
+  }
+
+  &__icon {
+    fill: $c-white;
+  }
+}

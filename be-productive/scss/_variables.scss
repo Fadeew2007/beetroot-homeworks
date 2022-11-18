@@ -1,0 +1,30 @@
+// * BEZIER
+$b-normal: cubic-bezier(0.4, 0, 0.2, 1);
+
+// * FONT FAMILY
+$ff-base: 'Montserrat', sans-serif;
+$ff-libre: 'Libre Baskerville', serif;
+$ff-inter: 'Inter', sans-serif;
+
+// * COLORS
+$c-anti-flash-white: #f6f1f1;
+$c-chinese-silver: #cac7c7;
+$c-floral-white: #fcf9f3;
+$c-platinum: #ede1e1;
+$c-black: #181717;
+$c-gray: #bdbdbd;
+$c-white: #fff;
+$c-red: #DF535F;
+
+// * COLOR BGC
+$c-gradient-orange: linear-gradient(
+  180deg,
+  #ff4816 0%,
+  rgba(245, 80, 35, 0.71) 100%
+);
+
+// * TRANSITION
+$t-normal: 0.35s $b-normal;
+
+// * FONT-SIZE
+$fs-base: 16;

@@ -1,0 +1,119 @@
+.check {
+  animation: shining 3s infinite;
+}
+
+.star {
+  animation: rotating-star 3s infinite linear;
+  transform-origin: center center;
+  transform-box: fill-box;
+}
+
+.leaf {
+  animation: rotating-star 2s infinite linear;
+  transform-origin: right top;
+  transform-box: fill-box;
+}
+
+.graph-line-grey {
+  animation: scale 2s infinite linear;
+  transform-origin: center bottom;
+  transform-box: fill-box;
+}
+
+.arm-moving {
+  animation: rotate-arm 2s infinite linear;
+  transform-origin: 18px 11px;
+  transform-box: fill-box;
+}
+
+.head-library {
+  animation: shaking 2s infinite linear;
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+
+.body-buy {
+  animation: shaking 2s infinite linear;
+  transform-origin: bottom center;
+  transform-box: fill-box;
+}
+
+@keyframes shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotate-arm {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1, 0.3);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes rotating-star {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(20deg);
+  }
+
+  80% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes shining {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

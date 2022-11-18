@@ -1,0 +1,77 @@
+.button {
+  background: linear-gradient(180deg, #ff4816 0%, rgba(245, 80, 35, 0.71) 100%);
+  transition: $t-normal;
+  align-items: center;
+  padding-right: 40px;
+  border-radius: 5px;
+  padding-left: 40px;
+  cursor: pointer;
+  display: flex;
+  border: none;
+  height: 50px;
+
+  @media (max-width: 576px) {
+    justify-content: center;
+    width: 100%;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+
+    @media (max-width: 576px) {
+      transform: scale(1.1);
+    }
+  }
+
+  &:active {
+    background: linear-gradient(
+      0deg,
+      rgba(248, 130, 98, 1) 0%,
+      rgba(255, 73, 24, 1) 100%
+    );
+  }
+
+  &__text {
+    font-size: em(14);
+    color: $c-white;
+  }
+
+  &--form {
+    justify-content: center;
+    height: 44px;
+    width: 100%;
+
+    &:hover {
+      transform: scaleY(1.27);
+    }
+    &:active {
+      border: 1px solid $c-white;
+      background: $c-black;
+      transform: scale(1);
+    }
+  }
+
+  &--transparent {
+    border: 1px solid $c-anti-flash-white;
+    background: transparent;
+    padding-right: 22px;
+    padding-left: 22px;
+
+    &:hover {
+      border: 1px solid transparent;
+      transform: scale(1);
+    }
+
+    &:active {
+      background: $c-gradient-orange;
+      border: 1px solid transparent;
+      transform: scale(1);
+    }
+  }
+
+  &__icon {
+    fill: $c-anti-flash-white;
+    font-size: em(12);
+    margin-left: 20px;
+  }
+}
